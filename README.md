@@ -25,9 +25,9 @@ over loyalty programs, since repeat buying behavior is rare across the customer 
 
 ## Dashboard
 See `dashboard/` folder for screenshots of all 3 report pages:
-1. Executive Overview — KPIs and revenue trend
-2. Customer Segmentation — RFM analysis
-3. Cohort Retention — month-over-month retention heatmap
+1. Executive Overview - KPIs and revenue trend
+2. Customer Segmentation - RFM analysis
+3. Cohort Retention - month-over-month retention heatmap
 
 ## Data Model
 7 relational tables (customers, orders, order_items, payments, products, 
@@ -36,5 +36,5 @@ sellers, category_translation) plus 5 analytical views built in Snowflake
 repeat customer rate), connected live to Power BI.
 
 ## Files
-- `sql/` — schema and all analysis queries/views
-- `dashboard/` — dashboard screenshots and .pbix file
+- `sql/` - schema and all analysis queries/views
+- `dashboard/` - dashboard screenshots and .pbix file
